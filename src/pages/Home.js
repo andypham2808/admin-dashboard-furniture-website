@@ -21,12 +21,12 @@ const Home = () => {
   return (
     <HomeContainer>
       <Featured />
-      <Chart
+      {/* <Chart
         data={userData}
         title="User Analytics"
         grid
         dataKey="Active User"
-      />
+      /> */}
       <HomeWidgets>
         <SmWidget />
         <LgWidget />

@@ -20,20 +20,20 @@ const Navbar = () => {
     <NavbarContainer>
       <NavbarWrapper>
         <TopLeft>
-          <Logo>twdadmin</Logo>
+          <Logo>dashboard - admin</Logo>
         </TopLeft>
         <TopRight>
-          <IconContainer>
+          {/* <IconContainer>
             <NotificationsNone />
             <IconBadge>5</IconBadge>
-          </IconContainer>
-          <IconContainer>
+          </IconContainer> */}
+          {/* <IconContainer>
             <Language />
             <IconBadge>3</IconBadge>
-          </IconContainer>
-          <IconContainer>
+          </IconContainer> */}
+          {/* <IconContainer>
             <Settings />
-          </IconContainer>
+          </IconContainer> */}
           <Avatar
             src={`https://randomuser.me/api/portraits/women/${rndNmr()}.jpg`}
             alt="avatar"

@@ -29,7 +29,7 @@ const Sidebar = () => {
   return (
     <SidebarContainer>
       <SidebarWrapper>
-        <SidebarMenu>
+        {/* <SidebarMenu>
           <SidebarTitle>Dashboard</SidebarTitle>
           <SidebarList>
             <Link to="/" className="link">
@@ -47,11 +47,17 @@ const Sidebar = () => {
               Sales
             </SidebarListItem>
           </SidebarList>
-        </SidebarMenu>
+        </SidebarMenu> */}
         <SidebarMenu>
           <SidebarTitle>All Menu</SidebarTitle>
           <SidebarList>
             <Link to="/users" className="link">
+              <Link to="/" className="link">
+                <SidebarListItem>
+                  <MyLineStyle />
+                  Home
+                </SidebarListItem>
+              </Link>
               <SidebarListItem>
                 <MyPermIdentity />
                 Users
